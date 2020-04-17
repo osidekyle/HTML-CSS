@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title id="title"><h1>Survey</h1></title>
+    <link rel = "stylesheet"
+   type = "text/css"
+   href = "survey.css" />
+  </head>
+  <body>
+      <div id="overlay">
+    <p id="description">Fitness Goals Survey</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Please enter your name.</label><br>
+      <input id="name" type="text" placeholder="Enter your name" required><br>
+      <label for="email" id="email-label">Please enter your email.</label><br>
+      <input id="email" type="email" placeholder="Enter your email" required><br>
+      <label for="number" id="number-label">Please enter your age.</label><br>
+      <input id="number" type="number" placeholder="Enter your age" minlength="1" maxlength="3" required><br>
+      <label for="dropdown" id="dropdown-label">Please choose your gender.</label><br>
+      <select name="feature" id="dropdown">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select><br>
+      <div id="goal-div">
+      <label for="goal" id="goal-label">Please choose your goal.</label><br>
+      <label id="weight-loss-button" for="weight-loss">
+        <input value="Weight Loss" type="radio" name="goal">Weight Loss
+      </label><br>
+      <label for="strength-gain">
+        <input value="Strength Gain" id="strength-gain" type="radio" name="goal">Strength Gain
+      </label><br>
+      <label for="general-fitness">
+        <input value="General Fitness" id="general-fitness" type="radio" name="goal">General Fitness
+        </label><br></div>
+      <div id="activity-div">
+      <label for="activity" id="activity-label">Please choose your favorite activity(click all that apply).</label><br>
+      <label for="weightlifting" id="weightlifting-label">
+        <input value="Weightlifting" id="weightlifting" type="checkbox" name="activity">Weightlifting</label><br>
+      <label for="cardio" id="cardio-label">
+        <input value="Cardio" id="cardio" type="checkbox" name="activity">Cardio</label><br>
+      <label for="Calisthenics" id="calisthenics-label">
+        <input value="Calisthenics" id="calisthenics" type="checkbox" name="activity">Calishtenics</label><br>
+      <label value="Flexibility" for="Flexibility" id="flexibility-label">
+        <input id="flexibility" type="checkbox" name="activity">Flexibility</label><br>
+      </div>
+      <label for="comments" id="comments-label">Please let us know about anything else <br>we should know about you.</label><br>
+      <textarea id="comments" rows="10" columns="20">Enter your information here . . .</textarea><br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+   </div>
+  </body>
+  
+</html>
