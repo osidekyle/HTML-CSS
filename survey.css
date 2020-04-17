@@ -1,0 +1,57 @@
+body{
+  background:url("https://lh3.googleusercontent.com/proxy/K6Sxq7vE4nGyUtF1ozYwFcR-1FY2n4XonpEQBKCxYwNhgITfKSB3TnDVmJtAIPDg30osJucV5it_xR9Jm2rAUoDZjlwI69X3-V5tuuEJXfc8mwZKlJ3PpCw");
+  background-size: cover;  
+}
+#survey-form{
+  font-size:1.3em;
+  font-family:Verdana,Geneva,sans-serif;
+  background-color:black;
+  color:White;
+  opacity:0.8;
+  margin: 0 10% 0 10%;
+  padding:2% 10% 2% 10%;
+  border-radius:20px;
+}
+#description{
+  text-align:center;
+  font-size: 2em;
+  font-family:Verdana,Geneva,sans-serif;
+  color:white;
+}
+#name{
+  width:100%;
+  margin-bottom: 5%;
+}
+#email{
+  width:100%;
+  margin-bottom: 5%;
+}
+#number{
+  width:100%;
+  margin-bottom: 5%;
+}
+#dropdown{
+  margin-bottom:5%;
+}
+#goal-div{
+  margin-bottom: 5%;
+}
+#activity-div{
+  margin-bottom: 5%;
+}
+#submit{
+  width: 100%;
+  background:#5FAD56;
+  border-color:#5FAD56;
+}
+#comments{
+  width:100%
+}
+#overlay{
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  background-color: rgba(95,173,86,0.7);
+  z-index:2;
+}
